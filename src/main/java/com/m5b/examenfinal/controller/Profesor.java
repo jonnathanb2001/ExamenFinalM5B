@@ -26,7 +26,7 @@ public class Profesor {
     @Autowired
     ProfesorServiceImpl profesorService;
 
-    /*
+    
     @GetMapping("/listar")
     public ResponseEntity<Profesor> listarProfesors() {
         return new ResponseEntity<>(profesorService.findByAll(),
@@ -63,5 +63,5 @@ public class Profesor {
         profesorService.delete(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }   
-     */
+     
 }
